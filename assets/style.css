@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fonts */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* header section style */
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rem;
+  height: 100svh;
+  background: #e554731a;
+  gap: 1rem;
+}
+.header-left h1,
+.header-left p{
+    padding-bottom: 2rem;
+}
+.header-left h1{
+    font-size: 3rem;
+}
+.header-left p{
+    font-size: 1.5rem;
+    color: #27272799;
+}
+.header-right{
+    height: 100%;
+    align-items: flex-end;
+}
+.header-right img {
+  display: flex;
+  align-items: end;
+  height: 100%;
+  padding-top: 3rem;
+}
+
+.btn {
+  color: #fff;
+  border-radius: 0.5rem;
+  background: #e55473;
+  padding: 1rem 1.75rem;
+  border: none;
+  font-size: 1.25rem;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    background-color: rgba(0, 176, 6, 0.768);
+    opacity:.8;
+}
+
+
+/* flower collections section style */
