@@ -55,7 +55,8 @@ body {
 }
 .btn:hover {
   cursor: pointer;
-  transform: scale(1.06);
+  transform: scale(1.02);
+  transition: all .5s;
   background-color: rgba(0, 176, 6, 0.768);
   opacity: 0.8;
 }
@@ -96,4 +97,81 @@ body {
   text-align: center;
   padding: 1rem;
   text-decoration: underline;
+}
+
+
+
+/* blog section style */
+
+.blog-container{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-2{
+  color: #fff;
+  border-radius: 0.5rem;
+  background: #e55473;
+  padding: .5rem 1.15rem;
+  border: none;
+  font-size: 1.25rem;
+}
+
+.blog-1 img,
+.blog-2 img,
+.blog-3 img{
+  height: 10rem;
+  width: 5rem;
+  object-fit: cover;
+}
+
+
+.blog {
+  margin: 5rem 10rem;
+}
+
+
+.blog-1,
+.blog-2,
+.blog-3 {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 30rem;
+  border-radius: .5rem;
+}
+.blog-1 img,
+.blog-2 img,
+.blog-3 img {
+  width: 100%;
+  height: auto;
+}
+
+.flower-name {
+  font-size: 24px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.collection-para {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.btn-2 {
+  background-color: #e55473;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  background-color: #e88b00;
+  transition: all .5s;
 }
