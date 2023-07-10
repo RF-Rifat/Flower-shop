@@ -187,3 +187,20 @@ body {
 }
 
 
+/* social media */
+
+
+.social-para{
+  text-align: center;
+  font-size: 1.125rem;
+  color: #27272799;
+  padding: 1rem 10rem 3rem 10rem;
+}
+.insta-img{
+  display: flex;
+  margin: 0 10rem;
+  justify-content: space-evenly;
+}
+.insta-img img{
+  width: 19cqw;
+}
