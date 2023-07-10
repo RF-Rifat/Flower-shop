@@ -121,7 +121,11 @@ body {
   border: none;
   font-size: 1.25rem;
 }
-
+.blog-heading{
+  text-align: center;
+  font-size: 2rem;
+  margin: 6rem 0 4rem 0;
+}
 .blog-1 img,
 .blog-2 img,
 .blog-3 img {
@@ -211,6 +215,7 @@ span{
   margin: 0 10rem;
   justify-content: space-evenly;
   padding: 2rem 0;
+  margin-top: 5rem;
 }
 .service-data div {
   text-align: center;
@@ -266,3 +271,20 @@ span{
 }
 
 /* footer section */
+footer{
+  text-align: center;
+  padding: 5rem 15rem;
+  background-color: #111010;
+  color: #fff;
+}
+
+footer h1{
+  margin-bottom: 1rem;
+}
+footer p{
+  margin-bottom: 1rem;
+}
+
+.copy-right{
+  color: #E55473;
+}
