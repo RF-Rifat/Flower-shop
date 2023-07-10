@@ -203,4 +203,41 @@ body {
 }
 .insta-img img{
   width: 19cqw;
+  border-radius: .5rem;
 }
+
+
+/* contact section style */
+
+.contact-container{
+  background-image: url('../images/Rectangle\ 9.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 5rem 10rem;
+  border-radius: .5rem;
+}
+
+
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.email {
+  margin: 1rem 0 2rem 0;
+}
+
+
+.email input[type="email"] {
+  width: 30rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  color: #555555;
+  margin: 0 1rem 2rem;
+}
+
