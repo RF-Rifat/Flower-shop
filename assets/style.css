@@ -56,7 +56,7 @@ body {
 .btn:hover {
   cursor: pointer;
   transform: scale(1.02);
-  transition: all .5s;
+  transition: all 0.5s;
   background-color: rgba(0, 176, 6, 0.768);
   opacity: 0.8;
 }
@@ -93,44 +93,40 @@ body {
   height: 100%;
   width: 100%;
 }
-.flower-title{
+.flower-title {
   text-align: center;
   padding: 1rem;
   text-decoration: underline;
 }
 
-
-
 /* blog section style */
 
-.blog-container{
+.blog-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
 
-.btn-2{
+.btn-2 {
   color: #fff;
   border-radius: 0.5rem;
   background: #e55473;
-  padding: .5rem 1.15rem;
+  padding: 0.5rem 1.15rem;
   border: none;
   font-size: 1.25rem;
 }
 
 .blog-1 img,
 .blog-2 img,
-.blog-3 img{
+.blog-3 img {
   height: 10rem;
   width: 5rem;
   object-fit: cover;
 }
 
-
 .blog {
   margin: 5rem 10rem;
 }
-
 
 .blog-1,
 .blog-2,
@@ -140,7 +136,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   text-align: center;
   width: 30rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 .blog-1 img,
 .blog-2 img,
@@ -173,5 +169,21 @@ body {
 
 .btn-2:hover {
   background-color: #e88b00;
-  transition: all .5s;
+  transition: all 0.5s;
 }
+
+/* Service data */
+
+.service-data {
+  border-radius: 0.5rem;
+  background: #2727270d;
+  display: flex;
+  margin: 0 10rem;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+.service-data div{
+  text-align: center;
+}
+
+
